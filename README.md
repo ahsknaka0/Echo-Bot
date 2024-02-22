@@ -88,4 +88,6 @@ It adds the assistant's response to the chat history in the session state.
 
 In summary, this code creates a simple Streamlit app for an Echo Bot. It allows users to input messages, echoes their input, and displays the conversation in a chat-like interface. The chat history is stored in the session state to persist messages across app reruns.
 
+# Final Look
+
 ![](https://i.imgur.com/bF6U3Wt.png)
