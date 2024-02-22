@@ -6,6 +6,32 @@ Code utilizes the Streamlit library, a popular Python framework for creating int
 
 Streamlit is a powerful and user-friendly Python library designed for rapidly creating interactive web applications with minimal coding effort. It simplifies the development process by providing a high-level API that allows developers to focus on building applications rather than dealing with the intricacies of web development. With its intuitive syntax and a wide range of built-in components, Streamlit is particularly well-suited for data scientists and engineers who want to quickly turn data scripts into shareable and interactive web apps. The library seamlessly integrates with popular data science tools and frameworks, making it a versatile choice for creating dashboards, visualizations, and interactive interfaces for machine learning models. Its ability to automatically handle the underlying web infrastructure, combined with real-time updates and easy deployment options, makes Streamlit an accessible and efficient solution for bringing data-driven applications to life.
 
+## Installation Process
+
+To install Streamlit, you can use the following command in your terminal or command prompt:
+
+```bash
+pip install streamlit
+```
+
+This command uses the Python package manager (`pip`) to download and install the Streamlit library. Make sure you have Python installed on your system before running this command.
+
+Once the installation is complete, you can verify it by running:
+
+```bash
+streamlit --version
+```
+
+This command should display the installed Streamlit version, confirming a successful installation. After the installation, you can start building Streamlit applications using the provided Python API. To run a Streamlit app, create a Python script with your application code and execute:
+
+```bash
+streamlit run your_app.py
+```
+
+Replace `your_app.py` with the filename of your Streamlit application script. This will launch a local development server, and you can view your Streamlit app in a web browser at the provided URL (usually `http://localhost:8501`).
+
+
+## How code works?
 
 Certainly! Let's break down the code step by step:
 ```python
@@ -61,3 +87,5 @@ This section displays the assistant's response.
 It adds the assistant's response to the chat history in the session state.
 
 In summary, this code creates a simple Streamlit app for an Echo Bot. It allows users to input messages, echoes their input, and displays the conversation in a chat-like interface. The chat history is stored in the session state to persist messages across app reruns.
+
+![](https://i.imgur.com/bF6U3Wt.png)
