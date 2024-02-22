@@ -2,6 +2,12 @@
 
 Code utilizes the Streamlit library, a popular Python framework for creating interactive web applications with minimal effort. Streamlit is known for its simplicity and ease of use, making it suitable for rapidly developing data-centric applications and interactive user interfaces. The code leverages Streamlit's features such as st.title for setting the application title, st.chat_input for capturing user input, and st.chat_message combined with st.markdown for displaying chat messages in a conversational format. The application's state management is handled through Streamlit's st.session_state, which allows for the preservation of data between different user interactions or app reruns. Overall, Streamlit is the key technology enabling the creation of a user-friendly Echo Bot interface in this code.
 
+# Library Use [`Streamlit`](https://docs.streamlit.io/)
+
+Streamlit is a powerful and user-friendly Python library designed for rapidly creating interactive web applications with minimal coding effort. It simplifies the development process by providing a high-level API that allows developers to focus on building applications rather than dealing with the intricacies of web development. With its intuitive syntax and a wide range of built-in components, Streamlit is particularly well-suited for data scientists and engineers who want to quickly turn data scripts into shareable and interactive web apps. The library seamlessly integrates with popular data science tools and frameworks, making it a versatile choice for creating dashboards, visualizations, and interactive interfaces for machine learning models. Its ability to automatically handle the underlying web infrastructure, combined with real-time updates and easy deployment options, makes Streamlit an accessible and efficient solution for bringing data-driven applications to life.
+
+
+Certainly! Let's break down the code step by step:
 ```python
 import streamlit as st
 ```
